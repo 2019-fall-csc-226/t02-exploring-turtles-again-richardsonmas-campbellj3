@@ -1,0 +1,50 @@
+# Authors.................Jeremy Campbell, Mason Richardson
+# Usernames...............campbellj3, richardsonmas
+# Assignment: t02
+
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor('lightblue')
+wn.title('Hey, Larry!')
+larry = turtle.Turtle()         #Larry The Turtle Guy
+larry.shape('arrow')
+larry.color('red')
+larry.pensize(3)
+
+larry.penup()
+larry.forward(-60)
+larry.right(-90)
+larry.pendown()
+larry.forward(50)
+larry.right(135)
+larry.forward(20)
+larry.right(-90)
+larry.forward(20)
+larry.right(135)
+larry.forward(50)
+#Finished the m
+larry.penup()
+larry.right(-90)
+larry.forward(30)
+larry.pendown()
+larry.right(-90)
+larry.forward(10)
+larry.forward(-10)
+larry.right(90)
+larry.forward(28)
+larry.right(-90)
+larry.forward(50)
+#Finished the j
+
+
+
+
+
+#head = 0
+#pen = 5
+
+#larry.setheading(head)
+#larry.pensize(pen)
+wn.exitonclick()
+
